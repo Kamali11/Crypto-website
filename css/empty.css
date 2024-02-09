@@ -1,0 +1,21 @@
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    width: 100px; /* Adjust the width of each card as needed */
+    height: 100px; /* Adjust the height of each card as needed */
+    background-color: lightblue; /* Example background color */
+    margin: 0 10px; /* Adjust the margin between cards as needed */
+    text-align: center;
+    line-height: 100px; /* Center the text vertically */
+  }
